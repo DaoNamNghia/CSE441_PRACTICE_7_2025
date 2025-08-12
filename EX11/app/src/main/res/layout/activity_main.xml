@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#4CAF50"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="#3F51B5"
+            android:backgroundTint="#3F51B5"
+            android:text="Bai11_Intent_filter_main"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/edtLink"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:paddingLeft="130sp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nhập link website"
+
+            android:textColor="#4CAF50" />
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:text="Show Web Page" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
